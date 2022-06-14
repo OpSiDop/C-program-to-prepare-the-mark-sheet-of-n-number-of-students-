@@ -79,4 +79,4 @@
                             { 
                                printf("\n%d   %s     %d      %d     %d     %d     %c     %0.1f      %c",s[i].rn,s[i].name,s[i].m1,s[i].m2,s[i].m3,s[i].total,s[i].result,s[i].avg,s[i].grade); 
                             } 
-}  
+} 
