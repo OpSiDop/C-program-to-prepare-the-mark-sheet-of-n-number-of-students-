@@ -16,7 +16,6 @@
         for(i=0;i<no;i++) 
         { 
              s[k].rn=roll; 
-            
              printf("\nEnter the Student Roll Number : %d ",s[k].rn); 
              printf("\nEnter the Student Name :"); 
              scanf("%s",&s[k].name);
