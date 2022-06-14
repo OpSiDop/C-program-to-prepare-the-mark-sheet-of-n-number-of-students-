@@ -3,7 +3,7 @@
  int k=0; 
  struct stud 
  { 
-        int rn; 
+        int rn;
         char name[30]; 
         int m1,m2,m3,total; 
         float avg; 
@@ -11,7 +11,7 @@
  }s[30]; 
         void main() 
  { 
-     int name;
+     
      int no,roll=1,i; 
        
         printf("Enter No of Students : "); 
@@ -24,9 +24,9 @@
             
              printf("\nEnter the Student Roll Number : %d ",s[k].rn); 
              printf("\nEnter the Student Name :"); 
-             scanf("%d",&s[k].name);
+             scanf("%s",&s[k].name);
              fflush(stdin);
-             gets(s[k].name);
+           
              printf("Enter the Three Marks : "); 
              scanf("%d",&s[k].m1); 
              scanf("%d",&s[k].m2); 
@@ -82,10 +82,10 @@
                         printf("\n*******************************************************"); 
                         printf("\n                      STUDENT MARKLIST "); 
                         printf("\n*******************************************************"); 
-                        printf("\nROLL \tNAME   MARK1 MARK2 MARK3 TOTAL RESULT Average GRADE"); 
+                        printf("\nROLL NAME   MARK1   MARK2   MARK3   TOTAL   RESULT   Average   GRADE"); 
                         for(i=0;i<no;i++) 
                             { 
-                               printf("\n%d\t%s   %d    %d    %d    %d    %c    %0.1f     %c",s[i].rn,s[i].name,s[i].m1,s[i].m2,s[i].m3,s[i].total,s[i].result,s[i].avg,s[i].grade); 
+                               printf("\n%d   %s     %d      %d     %d     %d     %c     %0.1f      %c",s[i].rn,s[i].name,s[i].m1,s[i].m2,s[i].m3,s[i].total,s[i].result,s[i].avg,s[i].grade); 
                             } 
                            
                                
