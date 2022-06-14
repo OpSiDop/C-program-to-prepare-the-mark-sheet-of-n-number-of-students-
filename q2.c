@@ -10,8 +10,8 @@
  }s[30]; 
         void main() 
  { 
-     int no,roll=1,i; 
-       printf("Enter No of Students : "); 
+        int no,roll=1,i; 
+        printf("Enter No of Students : "); 
         scanf("%d",&no);
         for(i=0;i<no;i++) 
         { 
